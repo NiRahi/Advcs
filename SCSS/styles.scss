@@ -1,0 +1,91 @@
+/* Taustakuvat */
+$text-color1: white;
+$text-color2: #0000FF;
+$font-size1: 1.5em;
+$font-size2: 2em;
+
+.page1 {
+    background-image: url(../imgs/EN_HistoryOfMagic_Header.jpg);
+ 
+ }
+ 
+ .page2 {
+     background-image: url(../imgs/magic-the-gathering-mtg-wallpaper-full-hd-455717.jpg);
+ }
+ 
+ .page3 {
+     background-image: url(../imgs/MTG_Jace_MasterofSecrets.jpg);
+     background-size: 100% ;
+ }
+ /*Yleistä muotoilua ja fontteja*/
+ 
+ body {
+     font-family:'Sorts Mill Goudy', serif ;
+ }
+ .howToPlay{
+     padding: 10px;
+     font-family: 'Sorts Mill Goudy', serif;;
+     font-size: $font-size1;
+     font-weight: 900;
+     color: $text-color1;
+ }
+ 
+ #gameStart{
+     padding: 10px;
+     font-family: 'Sorts Mill Goudy', serif;;
+     font-size: $font-size2;
+     font-weight: 900;
+     color: $text-color1;
+ }
+ [class^="info"] {
+     padding: 10px;
+     font-family: 'Sorts Mill Goudy', serif;;
+     font-size: $font-size1;
+     font-weight: 900;
+     color: $text-color2;
+ }
+ 
+ #button1 {
+     padding: 10px;
+     border: solid 1px black;
+     color: $text-color1;
+     border-radius: 0%;
+     font-size: $font-size1;
+ }
+ 
+ #navbarTitle {
+     font-size: $font-size1;
+ }
+ 
+ .infoRev {
+     display: none;
+ 
+ }
+ /* Värikoodit MTGn eri väreille*/
+ 
+ #blue {
+     color: blue;
+ }
+ 
+ #black {
+     color: black;
+ }
+ 
+ #red {
+     color: red;
+ }
+ #green {
+     color: green;
+ }
+ 
+ #multiColor1 {
+     color: purple;
+ }
+ #multiColor2 {
+     color: blue;
+ }
+ 
+ #artifact {
+     color: gray;
+ }
+ 
